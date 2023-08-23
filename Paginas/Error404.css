@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 167, 55);
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 95%;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 35%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(54, 55, 20);
+    padding: 2px;
+}
+button{
+    padding: 13px 25px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(54, 55, 20);
+    color: aliceblue;
+}

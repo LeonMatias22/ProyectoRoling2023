@@ -1,0 +1,91 @@
+:root   {
+    --ColorPrimario: #343330;
+    --ColorSecundario: #45462A;
+    --ColorTerciario: #7E5920;
+    --ColorCuarto: #DC851F;
+    --ColorQuinto: #FFA737;
+}
+
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 120px;
+}
+
+/* COLORES 1 */
+
+.ColorFondoUno{
+    background-color: rgb(52, 51,48);
+}
+
+.ColorLetrasUno{
+    color: rgb(255, 167, 55)
+}
+
+.ColorBotonUno{
+    background-color: rgb(255, 167, 55);
+}
+
+.ColorLetrasBotonUno{
+    color: rgb(52, 51,48);;
+}
+
+/* COLORES 2 */
+
+.ColorFondoDos{
+    background-color: rgb(255, 167, 55);
+}
+
+.ColorLetrasDos{
+    color: rgb(52, 51, 48);
+}
+
+.ColorBotonDos{
+    background-color: rgb(52, 51, 48);
+}
+
+.ColorLetrasBotonDos{
+    color: rgb(255, 167, 55);
+}
+
+body   {
+    background-color: var(--ColorSecundario);
+    color: var(--ColorSecundario);
+}
+
+.ContenedorForm {
+    background-color: #FFA737;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 5px  #000000;
+}
+
+#BotonReg   {
+    background-color: var(--ColorSecundario);
+    border-color: #45462A;
+}
+
+#BotonReg:hover {
+    background-color: #7E5920;
+}
+
+#BotonGoogle:hover  {
+    background-color: brown;
+}
+
+.input-group-text   {
+    background-color: var(--ColorSecundario);
+    border-color: var(--ColorSecundario);
+}
+
+.input-group-text   svg {
+    width: 30px;
+    height: 30px;
+    color: var(--ColorCuarto);
+    margin-right: 10px;
+}

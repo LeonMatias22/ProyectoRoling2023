@@ -1,0 +1,125 @@
+:root   {
+    --ColorPrimario: #343330;
+    --ColorSecundario: #45462A;
+    --ColorTerciario: #7E5920;
+    --ColorCuarto: #DC851F;
+    --ColorQuinto: #FFA737;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    width: 120px;
+}
+
+
+/* COLORES 1 */
+
+main{
+    background-color: var(--ColorSecundario);
+    border-radius: 20px;
+}
+
+.ColorFondoUno{
+    background-color: rgb(52, 51,48);
+}
+
+
+.ColorLetrasUno{
+    color: rgb(255, 167, 55)
+}
+
+
+.ColorBotonUno{
+    background-color: rgb(255, 167, 55);
+}
+
+
+.ColorLetrasBotonUno{
+    color: rgb(52, 51,48);
+}
+
+body    {
+    background-color: var(--ColorSecundario);
+}
+
+
+main{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
+    background-color: var(--ColorSecundario);
+   
+}
+
+
+form{
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 450px;
+    margin: auto;
+    background: rgba(255, 167, 55);
+    box-shadow: 5px 5px 15px 5px  #000000;
+}
+input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+h2{
+    color:var(--ColorSecundario);
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+#boton{
+    background-color: rgba(53, 54, 39);
+    color: white;
+    padding: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+}
+.mapa{
+    padding: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+h1{
+    text-align: center;
+    color:var(--ColorQuinto);
+    text-decoration: underline;
+}
+
+
+main{
+    background-image: url(../img/fondoContacto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px;
+}
+
+
+

@@ -1,0 +1,61 @@
+body{
+    background: rgb(255, 167, 55);
+    padding: auto;
+
+}
+
+.logo{
+    width: 120px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* COLORES 1 */
+
+.ColorFondoUno{
+    background-color: rgb(52, 51,48);
+}
+
+.ColorLetrasUno{
+    color: rgb(255, 167, 55)
+}
+
+.ColorBotonUno{
+    background-color: rgb(255, 167, 55);
+}
+
+.ColorLetrasBotonUno{
+    color: rgb(52, 51,48);;
+}
+
+
+.imagen{
+    border-radius: 100%;
+    width: 200px;
+    margin: 2%;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.titulo{
+    margin: 15px;
+    width: 70%;
+}
+
+
+.circulo{
+    border-radius: 100%;
+}
+
+.menuRes{
+    border-radius: 12%;
+}
+
+.imgNosotros{
+    width: 100%;
+    border-radius: 20px;
+}

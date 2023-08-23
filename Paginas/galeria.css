@@ -1,0 +1,79 @@
+:root {
+    --ColorPrimario: #343330;
+    --ColorSecundario: #45462a;
+    --ColorTerciario: #7e5920;
+    --ColorCuarto: #dc851f;
+    --ColorQuinto: #ffa737;
+    --font-family: "Lora", serif;
+    --font-family2: "Raleway", sans-serif;
+  }
+  
+  body {
+    background-color: var(--ColorPrimario);
+    color: var(--ColorSecundario);
+  }
+  
+  h1 {
+    font-family: var(--font-family);
+    color: var(--ColorPrimario);
+  }
+  
+  section {
+    background-color: var(--ColorQuinto);
+    padding: 25px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+    font-family: var(--font-family2);
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+  
+  .row .col-lg-3 {
+    padding: 20px;
+  }
+  
+  section img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  
+  section img:hover {
+    border: var(--ColorQuinto) solid 5px;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.logo{
+    width: 200px;
+}
+
+.menuRes{
+    border-radius: 12%;
+}
+
+/* COLORES 1 */
+
+.ColorFondoUno{
+    background-color: rgb(52, 51,48);
+}
+
+.ColorLetrasUno{
+    color: rgb(255, 167, 55);
+}
+
+.ColorBotonUno{
+    background-color: rgb(255, 167, 55);
+}
+
+.ColorLetrasBotonUno{
+    color: rgb(52, 51,48);
+}
